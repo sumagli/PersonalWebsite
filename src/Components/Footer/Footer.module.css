@@ -1,0 +1,42 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 15px;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+.footer form {
+  margin-top: 20px;
+}
+
+.footer input,
+.footer textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Add this CSS rule */
+.footer textarea {
+  resize: none;
+  /* This disables resizing */
+  height: 8em;
+  /* Default height of textarea is usually around 2em, so we set it to 4em to double the height */
+}
+
+.footer button {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}

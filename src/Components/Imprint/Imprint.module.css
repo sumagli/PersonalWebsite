@@ -1,0 +1,31 @@
+.CWContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.CWContent {
+  text-align: center;
+  color: #333;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.CWContent h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.CWContent p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.CWContent ul {
+  text-align: left;
+}

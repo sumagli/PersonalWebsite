@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <div>
-        <a href="www.linkedin.com/in/benedikt-schwägerl-137a99283" target="_blank" rel="noopener noreferrer">LinkedIn </a>
-        <a href="/impressum">Impressum</a>
+        <a href="www.linkedin.com/in/benedikt-schwägerl-137a99283" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="/Imprint">Imprint</a>
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import {
   BrowserRouter,
   Routes,
@@ -12,19 +11,23 @@ import Footer from './Components/Footer/Footer';
 import styled from './Components/Tiel/Tile.module.css'
 import CW from './Components/CW/CW'
 import Imprint from './Components/Imprint/Imprint'
+import styles from './App.module.css'
+
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Projects" element={<div className={styled.container}>{<Tiels />}</div>} />
-        <Route path="/CW" element={<div className={styled.container}>{<CW />}</div>} />
-        <Route path="/Imprint" element={<div className={styled.container}>{<Imprint />}</div>} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <div className={styles.background}>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Projects" element={<div className={styled.container}>{<Tiels />}</div>} />
+          <Route path="/CW" element={<div className={styled.container}>{<CW />}</div>} />
+          <Route path="/Imprint" element={<div className={styled.container}>{<Imprint />}</div>} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
 

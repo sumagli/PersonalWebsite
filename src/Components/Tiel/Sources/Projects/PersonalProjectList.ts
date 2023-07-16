@@ -1,14 +1,14 @@
 export default [
     {
         id: 1,
-        title: "Classic Timepiece",
-        description: "Embrace the timeless elegance of this classic watch. With its refined design and impeccable craftsmanship, it is sure to make a statement wherever you go.",
-        coverImg: "Projects/Project1.jpg"
+        title: "Webside for SECHANO",
+        description: "Created this small Website for SECHANO, a small company that produces handmade Watches.",
+        coverImg: "Projects/SECHANO.jpg"
     },
     {
         id: 2,
-        title: "Modern Chronograph",
-        description: "Discover the perfect blend of style and functionality with this modern chronograph watch. Designed for precision and durability, it is the ultimate companion for any occasion.",
-        coverImg: "Projects/Project1.jpg"
+        title: "Own Website",
+        description: "Using my own website to showcase my skills and projects.",
+        coverImg: "Projects/OwnWebsite.jpg"
     },
 ];

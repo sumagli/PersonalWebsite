@@ -7,6 +7,7 @@
 }
 
 .MainContent {
+  color: #fff;
   flex: 1;
   margin-left: 20px;
   margin-right: 20px;
@@ -40,13 +41,13 @@
 
 .Leftsidebar {
   flex: 0 0 200px;
-  background-color: #f0f0f0;
+  background-color: #333;
+  color: #fff;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 0 0 5px 0;
   position: sticky;
   top: 0;
 }
-
 
 .SidbarHeader h2,
 .SidbarHeader p {

@@ -30,9 +30,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Projekte" element={<div className={styled.container}>{projects}</div>} />
+        <Route path="/Projects" element={<div className={styled.container}>{projects}</div>} />
         <Route path="/CW" element={<div className={styled.container}>{<CW />}</div>} />
-        <Route path="/Impressum" element={<div className={styled.container}>{<Imprint />}</div>} />
+        <Route path="/Imprint" element={<div className={styled.container}>{<Imprint />}</div>} />
       </Routes>
       <Footer />
     </BrowserRouter>

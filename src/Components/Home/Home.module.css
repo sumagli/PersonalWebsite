@@ -1,6 +1,21 @@
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .home {
-  background: url('./LandingPage.jpg') no-repeat center center;
-  background-size: cover;
+  background: linear-gradient(-45deg, #20bf55, #01baef, #fb6340, #833ab4);
+  background-size: 600% 600%;
+  animation: gradient 15s ease infinite;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -12,27 +27,17 @@
 
 .home h1 {
   font-size: 2.5em;
-  color: #333;
+  color: #fff;
 }
 
 .home p {
   font-size: 1.2em;
-  color: #666;
+  color: #fff;
 }
 
-.gallery {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.gallery img {
-  width: 30%;
-  margin-bottom: 20px;
-}
-
-@media screen and (max-width: 600px) {
-  .gallery img {
-    width: 100%;
-  }
+.homeText {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 1.2em;
+  color: #fff;
 }
